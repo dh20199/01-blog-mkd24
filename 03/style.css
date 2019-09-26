@@ -1,6 +1,7 @@
 html {
     background-color: #ccc;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif
 }
 
 *, *:before, *:after {
@@ -9,21 +10,34 @@ html {
 
 main {
     border: 2px black solid;
-    padding: 10px;                      
+    padding: 10px;   
+    max-width: 50rem;
+    border-radius: 10px;                   
 }
 
 header {
     text-align: center;
+    background-color: bisque;
+    padding-top: 5px;
 }
 
 article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flow-root;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 article img {
+    max-width: 15rem;
+    float: left;
+    border: 20px;
+    margin-right: 5px;
 }
 
 footer {
-    background-color: #dfebfb;
+    background-color: bisque;
     min-height: 5rem;
     /* please don't change these values; you will have 
        plenty of chance to play with flex in the next problem */
